@@ -1,0 +1,89 @@
+body {
+  font-family: "Duru Sans", sans-serif;
+  background: #2c2a2a;
+  color: #dad8d8;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  border: 5px solid #6b6b6b;
+  padding: 2rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.ital {
+  font-style: italic;
+}
+
+.boldit {
+  font-weight: bold;
+}
+
+.titlelayout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.picsize {
+  min-width: 15px;
+  min-height: 15px;
+}
+
+.smalltext {
+  font-size: 0.7rem;
+}
+
+.round-img {
+  border-radius: 50%;
+  width: 13.9rem;
+  height: 20rem;
+  background-image: url("https://i.imgur.com/vFGovJe.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+h2 {
+  color: #497a6a;
+  letter-spacing: 1px;
+}
+
+.thinnerline {
+  border: none;
+  height: 1px;
+  background-color: rgb(109, 109, 109);
+}
+
+.maingrid1 {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: auto;
+  margin-bottom: 2%;
+}
+
+.aligntext {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0;
+}
+
+.aligntext2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.blockit {
+  display: block;
+}
